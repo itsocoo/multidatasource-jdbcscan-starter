@@ -1,0 +1,29 @@
+{
+  "groups": [
+    {
+      "name": "itsocoo.scan",
+      "sourceType": "com.itsocoo.multidatasource.jdbc.scan.properties.ScanConfigurationProperties",
+      "type": "com.itsocoo.multidatasource.jdbc.scan.properties.ScanConfigurationProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.itsocoo.multidatasource.jdbc.scan.properties.ScanConfigurationProperties",
+      "name": "itsocoo.scan.jdbc-template-suffix",
+      "type": "java.lang.String",
+      "defaultValue": "JdbcTemplate"
+    },
+    {
+      "sourceType": "com.itsocoo.multidatasource.jdbc.scan.properties.ScanConfigurationProperties",
+      "name": "itsocoo.scan.transaction-manager-suffix",
+      "type": "java.lang.String",
+      "defaultValue": "PlatformTransactionManager"
+    },
+    {
+      "sourceType": "com.itsocoo.multidatasource.jdbc.scan.properties.ScanConfigurationProperties",
+      "name": "itsocoo.scan.jdbc-template-args-key",
+      "type": "java.lang.String",
+      "defaultValue": "KEY"
+    }
+  ]
+}
