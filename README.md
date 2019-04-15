@@ -6,7 +6,14 @@ tags: ['心得','分享']
 comments: true
 ---
 
-
+> 功能介绍：
+> 底层使用jdbctemplate来查询数据源，采用接口的注入注解生成对应的代理对象，查询的时候直接查询生成的代理对象。
+>
+> 暂时可以查询SELECT UPDATE 
+>
+> 暂时支持单个事务，多个数据源多操作的链路事务（强一致性） 
+>
+> 具体使用 请看下面的说明及测试用例multidatasource-jdbcscan-spring-boot-starter-test
 
 ### 1.丑陋的多数据源代码
 
