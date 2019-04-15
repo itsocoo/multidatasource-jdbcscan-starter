@@ -43,7 +43,7 @@ public class MultiDataTransactionAspect implements ApplicationContextAware {
     }
 
     // 定义切入点
-    @Pointcut(value = "@annotation(com.lzsz.multidatasource.jdbc.scan.annotations.MultiTransactional)")
+    @Pointcut(value = "@annotation(com.itsocoo.multidatasource.jdbc.scan.annotations.MultiTransactional)")
     public void tranPoint() {
     }
 
